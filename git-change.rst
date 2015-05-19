@@ -23,6 +23,7 @@ SYNOPSIS
 | `git change` list
 | `git change` submit
 | `git change` gc
+| `git change` clean
 | `git change` print [<print-options>]
 
 
@@ -107,6 +108,10 @@ submit
 gc
 
     Remove temporary change branches which are fully merged.
+
+clean
+
+    Remove all temporary change branches (unmerged branches included).
 
 print [-r|--reviewers=] [--cc=] [-b|--bug=]
 
